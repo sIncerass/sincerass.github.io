@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Sheng Shen</title>
+    <link href="./docs/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./docs/style.css">
+    <link rel="stylesheet" href="./docs/academicons.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript"> 
+        function play(audio_id){
+            var audio = document.getElementById(audio_id);
+            audio.play();
+        }
+        function showHide(shID) {
+            if (document.getElementById(shID)) {
+                if (document.getElementById(shID).style.display == 'none') {
+                    document.getElementById(shID).style.display = 'inline';
+                }
+                else {
+                    document.getElementById(shID).style.display = 'inline';
+                    document.getElementById(shID).style.display = 'none';
+                }
+            }
+        }
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1></h1>
+	        <p>a M.Eng student in EECS at the University of California, Berkeley</p>
+        <img src="./docs/ss.jpeg" alt="profile">
+	<i class="fa fa-fw fa-map-marker"></i> Berleley, California<br>
+	<i class="fa fa-fw fa-envelope"></i> Email: firstname.s@berleley.edu<br>
+	<a href="https://twitter.com/eunsolc"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a><br>
+	<a href="https://scholar.google.com.hk/citations?user=BCKhEoAAAAAJ&hl=en"><i class="fa fa-fw fa-google"></i> Google Scholar</a><br>
+	<a href="https://github.com/sIncerass/"><i class="fa fa-fw fa-github"></i> Github</a><br>
+	<p><a href="./docs/cv.pdf"><i class="fa fa-fw fa-file"></i> CV</a></p><br>
+      </header>
+      <section>
+<p>I study natural language processing, focusing on context-aware text generation. More broadly, my academic interests cover machine learning and generation. My advisor at the UCB is <a href="https://people.eecs.berkeley.edu/~klein/">Dan Klein</a>. Prior to UCB, I worked with <a href="http://www.liuxuanzhe.com/">Xuanzhe Liu</a> at Peking University.</p>
+<!-- <p><strong>I’m on the faculty job market this year!</strong></p> -->
+  <h3>News</h3> 
+  <ul>
+  <li>(11/23/96) I was born.</li>
+  <!-- <li>(2/13/19) I am co-organizing a <a href="https://sites.google.com/view/acl19studentresearchworkshop/">student research workshop</a> at ACL 19, and <a href="https://mrqa.github.io/">2nd workshop on machine reading for question answering</a> at EMNLP 19.</li>
+  <li>(11/19/18) <a href="https://cse.snu.ac.kr/node/34483">Invited talk at Seoul National University</a>.</li>
+  <li>(9/05/18) Invited talk at Ohio State University and Heidelberg University.</li>
+  <li>(8/20/18) We released a dataset for <b>multi-turn</b> question answering. Please check out our <a href="http://quac.ai/">website</a>! </li>
+  <li>(3/01/18) I am co-organizing a workshop on QA at ACL 2018. See our <a href="https://mrqa2018.github.io/">website</a>.</li>
+  <li>(01/01/18) I was awarded <a href="https://research.fb.com/Fellows/">Facebook Research Fellowship</a>.</li> -->
+  </ul>
+  
+  <!-- <li><a href="https://arxiv.org/pdf/1810.08854.pdf">pair2vec: Compositional Word-Pair Embeddings for Cross-Sentence Inference</a>, NAACL 2019 long
+    <ul>
+      <p class="pub"><a class="ppl" href="https://homes.cs.washington.edu/~mandar90/">Mandar Joshi</a>, <strong></strong>, <a class="ppl" href="https://levyomer.wordpress.com/">Omer Levy</a>, Dan Weld and <a class="ppl" href="https://homes.cs.washington.edu/~lsz/">Luke Zettlemoyer</a></p>
+     </ul>
+  </li>
+  <li>No Permanent Friends or Enemies: Tracking Dynamic Relationships Between Nations from News, (Preprint in preparation), NAACL 2019 long
+    <ul>
+      <p class="pub">Xiaochuang Han, <strong></strong>, and <a class="ppl" href="https://chenhaot.com/">Chenhao Tan</a></p>
+     </ul>
+  </li> -->
+
+
+  <h3>Publications (* equal contribution) </h3>
+  <li><a >Pragmatically Informative Text Generation</a> <span class="venue">NAACL 19 short</span>
+    <ul>
+      <p class="pub"><strong>Sheng Shen</strong>, <a class="ppl" href="https://people.eecs.berkeley.edu/~dfried/">Daniel Fried</a>, <a class="ppl" href="https://people.eecs.berkeley.edu/~jda/">Jacob Andreas</a> and <a href="https://people.eecs.berkeley.edu/~klein/">Dan Klein</a></p>
+      <!-- <p class="pub"><a class="code" href="http://homes.cs.washington.edu/~eunsol/papers/ckz_acl15_slides.pdf">[Slides]</a><a class="code" href="http://homes.cs.washington.edu/~eunsol/files/acl15_ckz_data.tar.gz">[Data (414MB)]</a></p> -->
+    </ul>
+  </li>
+  <li><a >An Annotated Dataset of Literary Entities</a> <span class="venue">NAACL 19 short</span>
+    <ul>
+      <p class="pub"><a class="ppl" href="http://people.ischool.berkeley.edu/~dbamman/">David Bamman</a>, <a>Sejal Popat</a>, <strong>Sheng Shen</strong></p>
+      <!-- <p class="pub"><a class="code" href="http://homes.cs.washington.edu/~eunsol/papers/ckz_acl15_slides.pdf">[Slides]</a><a class="code" href="http://homes.cs.washington.edu/~eunsol/files/acl15_ckz_data.tar.gz">[Data (414MB)]</a></p> -->
+    </ul>
+  </li>
+  <li><a >Ermes: Emoji-Powered Representation Learning for Cross-Lingual Sentiment Classification</a> <span class="venue">WWW 19 long</span>
+    <ul>
+      <p class="pub"><a class="ppl" href="https://chenzhenpeng18.github.io">
+Zhenpeng Chen</a><sup>*</sup>, <strong>Sheng Shen</strong><sup>*</sup>, <a class="ppl" href="https://acbull.github.io/">Ziniu Hu</a>, <a class="ppl" href="http://sei.pku.edu.cn/~luxuan13/">Xuan Lu</a>, <a class="ppl" href="http://www.liuxuanzhe.com/">Xuanzhe Liu</a> and <a class="ppl" href="http://www-personal.umich.edu/~qmei/">Qiaozhu Mei</p>
+      <p class="pub"><a class="code" href="https://github.com/sIncerass/ELSA">
+      [Code]</a></p>
+    </ul>
+  </li>
+  <li><a href="https://dl.acm.org/citation.cfm?id=3131710">Towards Release Strategy Optimization for Apps in Google Play</a> <span class="venue">Internetware 17 long</span>
+    <ul>
+      <p class="pub"><strong>Sheng Shen</strong>, <a class="ppl" href="http://sei.pku.edu.cn/~luxuan13/">Xuan Lu</a>, <a class="ppl" href="https://acbull.github.io/">Ziniu Hu</a> and <a class="ppl" href="http://www.liuxuanzhe.com/">Xuanzhe Liu</a>
+    </ul>
+  </li>
+  <h3>Preprints </h3>
+  <li><a href="https://arxiv.org/pdf/1811.00681.pdf">On the Generation of Medical Question-Answer Pairs</a>
+    <ul>
+      <p class="pub"><strong>Sheng Shen</strong>, <a class="ppl" href="https://sites.google.com/site/yaliangli/">Yaliang Li</a>, <a>Nan Du</a>, <a>Xian Wu</a>, <a>Yusheng Xie</a>, <a>Shen Ge</a>, <a>Tao Yang</a>, <a>Kai Wang</a>, <a>Xingzheng Liang</a> and <a>Wei Fan</a></p>
+     </ul>
+  </li>
+  <li><a href="https://www.researchgate.net/profile/Zhenpeng_Chen3/publication/316985738_Through_a_Gender_Lens_An_Empirical_Study_of_Emoji_Usage_over_Large-Scale_Android_Users/links/59848d1fa6fdcc75624fbb5c/Through-a-Gender-Lens-An-Empirical-Study-of-Emoji-Usage-over-Large-Scale-Android-Users.pdf">Through a gender lens: An empirical study of emoji usage over large-scale android users</a>
+    <ul>
+      <p class="pub"><a class="ppl" href="https://chenzhenpeng18.github.io">
+Zhenpeng Chen</a>, <a class="ppl" href="http://sei.pku.edu.cn/~luxuan13/">Xuan Lu</a>, <strong>Sheng Shen</strong>, <a class="ppl" href="https://aiwei.me/ ">Wei Ai</a>, <a class="ppl" href="http://www.liuxuanzhe.com/">Xuanzhe Liu</a> and <a class="ppl" href="http://www-personal.umich.edu/~qmei/">Qiaozhu Mei</a></p>
+     </ul>
+  </li>
+  <p></p>
+</section>
+<footer>
+<p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+</footer>
+</div>
+<script src="./_files/scale.fix.js"></script>
+
+
+</body></html>
