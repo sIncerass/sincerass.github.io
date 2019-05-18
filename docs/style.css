@@ -156,11 +156,15 @@ a.code { color: #1D8A4D; text-decoration: none; font-size:11px}
 
 a.ppl { color: #727272; text-decoration: none; }
 
+a.best { color: #F08080; text-decoration: none; font-size:11px }
+
 a:hover, a:focus { color: #069; font-weight: bold; }
 
 a.code:hover, a.code:focus { color: #135B33; font-weight: bold; }
 
 a.ppl:hover, a.ppl:focus { color: #727272; font-style: italic; }
+
+a.best:hover, a.best:focus { color: #FF0000; font-weight: bold; }
 
 a small { font-size: 11px; color: #777; margin-top: -0.3em; display: block; }
 
